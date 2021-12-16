@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="font.css"> -->
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="custom.js"></script>
+
+
+	<!-- Bootstrap -->
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+	<!-- icon -->
+	<link rel="stylesheet" type="text/css" href="icon/fontawesome/css/all.min.css">
+
+	<link rel="stylesheet" type="text/css" href="icon/icofont/icofont.min.css">
+
+	<link rel="stylesheet" type="text/css" href="icon/boxicons/css/boxicons.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.customer-logos').slick({
+				slidesToShow: 6,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 1500,
+				arrows: false,
+				dots: false,
+				pauseOnHover: false,
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 4
+					}
+				}, {
+					breakpoint: 520,
+					settings: {
+						slidesToShow: 3
+					}
+				}]
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="banner">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-default">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="photo/logo.png" id="logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link px-4" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" href="#">Speakers</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" href="#">Schedule</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" href="#">Sponsor</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" href="#">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4" href="#" id="buy-ticket">Buy Ticket</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row justify-content-center text-white text-center">
+				<div class="col-9" id="headerWhiteSpace">
+					<h1 class="text-uppercase display-4">The Annual <span class="text-danger" id="txt-color">Marketing</span> Conference</h1>
+
+					<p class="my-5">10-12 December, Downtown Conterence Center, Yangon</p>
+
+					<a href="" class="btn d-xl-inline-block d-lg-inline-block d-md-none d-sm-none d-none" id="about-btn">About the event</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- about the event -->
+	<div class="container-fluid">
+		<div class="about">
+			<div class="row">
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+				<h3>About The Event</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+				<h3>Where</h3>
+				<p>Downtown Conterence Center,<br> Yangon</p>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+				<h3>When</h3>
+				<p>Monday to Wednesday 10-12 <br>December</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- event speakers -->
+	<div class="container mt-5 pt-5">
+		<h4 class="text-center text-uppercase font-weight-bold">Event Speakers</h4>
+		<p class="text-center">Here are some of our speakers</p>
+		<hr id="line">
+
+		<div class="row">
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+				<div class="speaker mb-5">
+					<img src="photo/e1.jpg" class="img-fluid">
+					<div class="speaker-details text-white">
+						<h3>Festival 1</h3>
+						<p>Myanmar</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+				<div class="speaker mb-5">
+					<img src="photo/e7.jpg" class="img-fluid">
+					<div class="speaker-details text-white">
+						<h3>Festival 2</h3>
+						<p>Myanmar</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+				<div class="speaker mb-5">
+					<img src="photo/e3.jpg" class="img-fluid">
+					<div class="speaker-details text-white">
+						<h3>Festival 3</h3>
+						<p>Myanmar</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+				<div class="speaker mb-5">
+					<img src="photo/e4.jpg" class="img-fluid">
+					<div class="speaker-details text-white">
+						<h3>Festival 4</h3>
+						<p>Myanmar</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+				<div class="speaker mb-5">
+					<img src="photo/e1.jpg" class="img-fluid">
+					<div class="speaker-details text-white">
+						<h3>Festival 5</h3>
+						<p>Myanmar</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+				<div class="speaker mb-5">
+					<img src="photo/e6.jpg" class="img-fluid">
+					<div class="speaker-details text-white">
+						<h3>Festival 6</h3>
+						<p>Myanmar</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- event schedule -->
+	<div class="container-fluid mt-5 pt-5 bg-light">
+		<h4 class="text-center text-uppercase font-weight-bold">Event Schedule</h4>
+		<p class="text-center">Here are some of our speakers</p>
+		<hr id="line">
+
+		<div class="row justify-content-center text-white text-center">
+			<a href="" class="btn btn-danger d-xl-inline-block d-lg-inline-block d-md-none d-sm-none d-none" id="schedule-btn">Day 1</a>
+
+			<a href="" class="btn btn-dark d-xl-inline-block d-lg-inline-block d-md-none d-sm-none d-none" id="schedule-btn">Day 2</a>
+
+			<a href="" class="btn btn-dark d-xl-inline-block d-lg-inline-block d-md-none d-sm-none d-none" id="schedule-btn">Day 3</a>
+
+			<p>Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius necessitatibus voluptatem quis labore perspiciatis quia.</p>
+		</div>
+
+		<div class="schedule">
+			<div class="row">
+				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+					09:30AM
+				</div>
+
+				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
+					<h6><b>Registration</b></h6>
+					<p>Fugit voluptas iusto maiores temporibus autem numquam magnam</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+					10:00AM
+				</div>
+
+				<div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12">					
+                    <img class="mx-auto rounded-circle" src="photo/boy1.jpg" alt="" style="width: 70px; height: 70px;" />
+                    
+				</div>
+
+				<div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+					<h6><b>Keynote</b>&nbsp;&nbsp;Brenden Legros</h6>
+					<p>Facere provident incidunt quos voluptas</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+					11:00AM
+				</div>
+
+				<div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12">
+					<img class="mx-auto rounded-circle" src="photo/boy3.jpg" alt="" style="width: 70px; height: 70px;" />
+				</div>
+
+				<div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+					<h6><b>Et voluptatem iusto dicta nobis.</b>&nbsp;&nbsp;Hubert Hirthe</h6>
+					<p>Maiores dignissimos neque qui cum occusantium ut sit sint inventore</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+					12:00AM
+				</div>
+
+				<div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12">
+					<img class="mx-auto rounded-circle" src="photo/girl.jpg" alt="" style="width: 70px; height: 70px;" />
+				</div>
+
+				<div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+					<h6><b>Explicabo et rerum quiset ut ea.</b>&nbsp;&nbsp;Cole Emmerich</h6>
+					<p>Veniam occusantium laborum nihil eos eaque occusantiumaspernatur.</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+					02:00AM
+				</div>
+
+				<div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12">
+					<img class="mx-auto rounded-circle" src="photo/model.jpg" alt="" style="width: 70px; height: 70px;" />
+				</div>
+
+				<div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+					<h6><b>Qui non qui vel ametculpa sequi.</b>&nbsp;&nbsp;Jack Christiansen</h6>
+					<p>Nam ex distinction voluptatem doloremque suscipit iusto.</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+					03:00AM
+				</div>
+
+				<div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12">
+					<img class="mx-auto rounded-circle" src="photo/boy4.jpg" alt="" style="width: 70px; height: 70px;" />
+				</div>
+
+				<div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+					<h6><b>Quos ratione neque expedita asperiores.</b>&nbsp;&nbsp; Alejandrin Littel</h6>
+					<p>Eligendi quo eveniet est nobis et ad temporibus odio quo</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+					04:00AM
+				</div>
+
+				<div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12">
+					<img class="mx-auto rounded-circle" src="photo/1.jpg" alt="" style="width: 70px; height: 70px;" >
+				</div>
+
+				<div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+					<h6><b>Quo aui praesentium nesciunt</b>&nbsp;&nbsp;Willow Trantow</h6>
+					<p>Voluptatem et alias dolorum est out sit enim neque veritatis.</p>
+				</div>
+			</div>
+			<hr>
+		</div>
+	</div>
+
+	<!-- event venue -->
+	<div class="container-fluid mt-5 pt-5">
+		<h4 class="text-center text-uppercase font-weight-bold">Event Venue</h4>
+		<p class="text-center">Event venue location info and gallery</p>
+		<hr id="line">
+
+		<div class="row">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-5">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61107.883665458765!2d96.11464430839291!3d16.81431029964623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c194c7d7cc6977%3A0x1512a308c17be173!2sGa%20Mone%20Pwint!5e0!3m2!1sen!2smm!4v1595436572185!5m2!1sen!2smm" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-5 text-center px-5" id="downtown">
+				<h3>Downtown Conference Center, NewYork</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-5">
+				<img src="photo/e9.jpg" class="img-fluid">
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-5">
+				<img src="photo/e10.jpg" class="img-fluid">
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-5">
+				<img src="photo/e11.jpg" class="img-fluid">
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-5">
+				<img src="photo/e5.jpg" class="img-fluid">
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-5">
+				<img src="photo/e1.jpg" class="img-fluid">
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-5">
+				<img src="photo/e2.jpg" class="img-fluid">
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-5">
+				<img src="photo/e3.jpg" class="img-fluid">
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-5">
+				<img src="photo/e4.jpg" class="img-fluid">
+			</div>
+		</div>
+	</div>
+
+
+	<!-- hotels -->
+	<div class="container-fluid mt-5 py-5 bg-light">
+		<h4 class="text-center text-uppercase font-weight-bold">Hotels</h4>
+		<p class="text-center">Here are some nearby hotels</p>
+		<hr id="line">
+
+		<div class="card-deck">
+			<div class="card">
+				<img src="photo/hotel1.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Hotel 1</h5>
+					<p class="card-text">
+						<i class="fas fa-star text-warning"></i>
+						<i class="fas fa-star text-warning"></i>
+						<i class="fas fa-star text-warning"></i>
+						<i class="fas fa-star text-warning"></i>
+						<i class="fas fa-star text-warning"></i><br>
+
+						0.4 Mile from the Venue
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="photo/hotel2.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Hotel 2</h5>
+					<p class="card-text">
+						
+						<i class="fas fa-star text-warning"></i>
+						<i class="fas fa-star text-warning"></i>
+						<i class="fas fa-star text-warning"></i>
+						<i class="fas fa-star text-warning"></i>
+						<i class="fas fa-star-half-alt text-warning"></i><br>
+						0.5 Mile from the Venue
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="photo/hotel3.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Hotel 3</h5>
+					<p class="card-text">
+						<i class="fas fa-star text-warning"></i>
+						<i class="fas fa-star text-warning"></i>
+						<i class="fas fa-star text-warning"></i>
+						<i class="fas fa-star text-warning"></i><br>
+						0.6 Mile from the Venue
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- gallery -->
+	<div class="container-fluid mt-5 py-5">
+		<h4 class="text-center text-uppercase font-weight-bold">Gallery</h4>
+		<p class="text-center">Check our gallery from the recent events</p>
+		<hr id="line">
+
+		<div class="container">
+			
+			<section class="customer-logos slider">
+				<div class="slide"><img src="photo/e1.jpg"></div>
+				<div class="slide"><img src="photo/e2.jpg"></div>
+				<div class="slide"><img src="photo/e3.jpg"></div>
+				<div class="slide"><img src="photo/e4.jpg"></div>
+				<div class="slide"><img src="photo/e5.jpg"></div>
+				<div class="slide"><img src="photo/e6.jpg"></div>
+				<div class="slide"><img src="photo/e7.jpg"></div>
+				<div class="slide"><img src="photo/e8.jpg"></div>
+				<div class="slide"><img src="photo/e9.jpg"></div>
+			</section>
+		</div>
+		
+	</div>
+
+	<!-- sponsors -->
+	<div class="container-fluid mt-5 py-5 bg-light">
+		<h4 class="text-center text-uppercase font-weight-bold">Sponsors</h4>
+		<p class="text-center">Check our gallery from the recent events</p>
+		<hr id="line">
+
+		<div class="row">
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+				<div class="card" style="width: 16rem;">
+					<img src="photo/s1.jpg" class="card-img-top img-fluid" alt="..." style="height: 200px;">
+				</div>
+			</div>
+
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+				<div class="card" style="width: 16rem;">
+					<img src="photo/s2.png" class="card-img-top img-fluid" alt="..." style="height: 200px;">
+				</div>
+			</div>
+
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+				<div class="card" style="width: 16rem;">
+					<img src="photo/s3.png" class="card-img-top img-fluid" alt="..." style="height: 200px;">
+				</div>
+			</div>
+
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+				<div class="card" style="width: 16rem;">
+					<img src="photo/s4.png" class="card-img-top img-fluid" alt="..." style="height: 200px;">
+				</div>
+			</div>
+		</div>
+
+		<div class="row mt-3">
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+				<div class="card" style="width: 16rem;">
+					<img src="photo/s5.jpeg" class="card-img-top img-fluid" alt="..." style="height: 200px;">
+				</div>
+			</div>
+
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+				<div class="card" style="width: 16rem;">
+					<img src="photo/s6.png" class="card-img-top img-fluid" alt="..." style="height: 200px;">
+				</div>
+			</div>
+
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+				<div class="card" style="width: 16rem;">
+					<img src="photo/s7.png" class="card-img-top img-fluid" alt="..." style="height: 200px;">
+				</div>
+			</div>
+
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+				<div class="card" style="width: 16rem;">
+					<img src="photo/s8.jpg" class="card-img-top img-fluid" alt="..." style="height: 200px;">
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- f.a.q -->
+	<div class="container mt-5 py-5">
+		<h4 class="text-center text-uppercase font-weight-bold">F.A.Q</h4>
+		<p class="text-center">Check our gallery from the recent events</p>
+		<hr id="line">
+
+		<div class="row">
+			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
+				Non consectetur a erat nam at lectus urna duis?
+			</div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+				<i class="icofont-plus-circle"></i>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
+				Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+			</div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+				<i class="icofont-plus-circle"></i>
+			</div>
+		</div>
+		<hr>
+		<div class="row"> 
+			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
+				Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+			</div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+				<i class="icofont-plus-circle"></i>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
+				Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+			</div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+				<i class="icofont-plus-circle"></i>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
+				Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+			</div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+				<i class="icofont-plus-circle"></i>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
+				Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunu eget lorem dolor?
+			</div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+				<i class="icofont-plus-circle"></i>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- newsletter -->
+	<div class="container-fluid mt-5 py-5" id="newsletter">
+		<h4 class="text-center text-uppercase font-weight-bold">Newsletter</h4>
+		<p class="text-center">Rerum numquam illum recusandae quia mollitia consequatur.</p>
+		<hr id="line">
+
+		<div class="justify-content-center">
+			<input type="text" name="yemail" placeholder="Enter your email" id="email-subscribe" class="d-md-none d-sm-none d-none d-lg-inline-block d-xl-inline-block">
+			<a class="btn btn-danger d-md-none d-sm-none d-none d-lg-inline-block d-xl-inline-block" href="#" id="btn-subscribe">Subscribe</a>
+		</div>
+		
+	</div>
+
+	<!-- buy tickets -->
+	<div class="container-fluid mt-5 py-5 bg-light">
+		<h4 class="text-center text-uppercase font-weight-bold">Buy Tickets</h4>
+		<p class="text-center">Velit consequatur inventore iste fugit unde omnis eum aut</p>
+		<hr id="line">
+
+		<div class="row">
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+				<div class="card border-success mb-3" style="max-width: 18rem;">
+					<div class="card-header bg-transparent border-success"><h6 class ="text-center text-uppercase">Standard Access</h6>
+						<h3 class ="text-center text-uppercase">$150</h3></div>
+					<div class="card-body text-left">
+						<ul type="none">
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Regular Seating
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Coffee Break
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Custom Badge
+							</li>
+							<li class="text-muted">
+								<i class="icofont-close"></i>&nbsp;&nbsp;Community Access
+							</li>
+							<li class="text-muted">
+								<i class="icofont-close"></i>
+								&nbsp;&nbsp;Workshop Access</li>
+							<li class="text-muted">
+								<i class="icofont-close"></i>
+								&nbsp;&nbsp;After Party
+							</li>
+						</ul>
+					</div>
+					<div class="card-footer text-center bg-transparent border-success"> <a href="#" class="btn btn-danger" id="buy">Buy Now</a></div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+				<div class="card border-success mb-3" style="max-width: 18rem;">
+					<div class="card-header bg-transparent border-success"><h6 class ="text-center text-uppercase">Pro Access</h6>
+						<h3 class ="text-center text-uppercase">$250</h3></div>
+					<div class="card-body text-left">
+						<ul type="none">
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Regular Seating
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Coffee Break
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Custom Badge
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Community Access
+							</li>
+							<li class="text-muted">
+								<i class="icofont-close"></i>
+								&nbsp;&nbsp;Workshop Access</li>
+							<li class="text-muted">
+								<i class="icofont-close"></i>
+								&nbsp;&nbsp;After Party
+								
+							</li>
+						</ul>
+					</div>
+					<div class="card-footer text-center bg-transparent border-success"> <a href="#" class="btn btn-danger" id="buy">Buy Now</a></div>
+				</div>
+			</div>	
+
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+				<div class="card border-success mb-3" style="max-width: 18rem;">
+					<div class="card-header bg-transparent border-success"><h6 class ="text-center text-uppercase">Premium Access</h6>
+						<h3 class ="text-center text-uppercase">$350</h3></div>
+					<div class="card-body text-left">
+						<ul type="none">
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Regular Seating
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Coffee Break
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Custom Badge
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Community Access
+							</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;Workshop Access</li>
+							<li>
+								<i class="icofont-verification-check"></i>
+								&nbsp;&nbsp;After Party
+								
+							</li>
+						</ul>
+					</div>
+					<div class="card-footer text-center bg-transparent border-success"> <a href="#" class="btn btn-danger" id="buy">Buy Now</a></div>
+				</div>
+			</div>		
+		</div>
+	</div>
+
+	<!-- contact us -->
+	<div class="container mt-5 py-5">
+		<h4 class="text-center text-uppercase font-weight-bold">Contact Us</h4>
+		<p class="text-center">Nihil officia ut sint molestiae tenetur</p>
+		<hr id="line">
+
+		<div class="row">
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 border-right border-dark">
+				<center>
+					<h6 class ="text-uppercase"><b>Address</b></h6>
+					<p>A108 Adam Street, NY 535022, USA</p>
+				</center>
+				
+			</div>
+
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 border-right border-dark">
+				<center>
+					<h6 class ="text-uppercase"><b>Phone Number</b></h6>
+					<p style="color: blue;">+1 5589 55488 55</p>
+				</center>
+				
+			</div>	
+
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+				<center>
+					<h6 class ="text-uppercase"><b>Email</b></h6>
+					<p style="color: blue;">info@example.com</p>
+				</center>	
+			</div>		
+		</div>
+
+		<div class="row mt-2">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 input-group">
+				<input type="text" name="name" placeholder="Your Name" class="form-control">
+			</div>
+
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 input-group">
+				<input type="email" name="email" placeholder="Your Email" class="form-control">
+			</div>
+		</div>
+
+		<div class="row mt-2">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 input-group">
+				<input type="text" name="subject" placeholder="Subject" class="form-control">
+			</div>
+		</div>
+
+		<div class="row mt-2">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 input-group">
+				<textarea class="form-control">Message</textarea>
+			</div>
+		</div>
+
+		<div class="row mt-2">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+				
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+				<a class="btn btn-danger" href="#" id="btn-send">Send Message</a>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- footer1 -->
+	<div class="container-fluid mt-5 py-5" style="background-color: black; color: white;">
+		<div class="row">
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+				<h5 class="card-title">
+					<i class="icofont-location-pin text-danger" style="font-size: 50px;"></i>
+					The Event
+				</h5>
+				<p class="card-text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+
+
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+				<h5 class="text-uppercase">Useful Link</h5>
+				<hr id="footer1">
+				<p>
+					<i class="icofont-simple-right text-danger"></i>
+					<a class="text-white" href="#" id="quick">Home</a>
+					<hr id="useful">
+			
+					<i class="icofont-simple-right text-danger"></i>
+					<a class="text-white" href="#" id="quick">About Us</a>
+					<hr id="useful">
+
+					<i class="icofont-simple-right text-danger"></i>
+					<a class="text-white" href="#" id="quick">Services</a>
+					<hr id="useful">
+
+					<i class="icofont-simple-right text-danger"></i>
+					<a class="text-white" href="#" id="quick">Terms of service</a>
+					<hr id="useful">
+				
+					<i class="icofont-simple-right text-danger"></i>
+					<a class="text-white" href="#" id="quick">Privacy Policy</a>
+					<hr id="useful">
+
+				</p>
+			</div>
+
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+				<h5 class="text-uppercase">Contact Us</h5>
+				<hr id="footer1">
+				<p>
+					A108 Adam Street New York, NY 535022 United States<br><br>
+					Phone: +1 5589 55488 55<br><br>
+					Email: info@example.com<br><br><br>
+					<i class="fab fa-twitter-square" style="font-size: 30px;"></i>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<i class="fab fa-facebook" style="font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+					<i class="fab fa-instagram-square" style="font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+					<i class="fab fa-google-plus" style="font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+					<i class="fab fa-linkedin" style="font-size: 30px;"></i></i>
+					
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer2 -->
+	<div class="container-fluid mt-2" style="background-color: silver; color: white;">
+		<div class="row text-center">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+				<i class="far fa-copyright"></i>
+				Copyright TheEvent. All Rights Reversed<br>
+				Designed by  <span style="color: red;">BootstrapMade</span>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>
